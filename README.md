@@ -1,11 +1,11 @@
-<h1 align="center"> Lumera </h1>
+<h1 align="center"> Lumera
 
 
 
 
 ![image](https://github.com/user-attachments/assets/291dc80d-e97a-4941-b9be-ac0c39d2278c)
 
-
+</h1>
 
  * [Topluluk kanalımız](https://t.me/corenodechat)<br>
  * [Topluluk Twitter](https://twitter.com/corenodeHQ)<br>
