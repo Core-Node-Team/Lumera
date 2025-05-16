@@ -1,0 +1,1 @@
+{"name":"v1.0.0","time":"0001-01-01T00:00:00Z","height":1283200,"info":"Upgrade to 1) add x/action module and set initial parameters; 2) add 'burn all leftovers after the claiming period has ended' to the Claim module"}
