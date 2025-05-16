@@ -152,7 +152,8 @@ sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.025ulume\"/" 
 ```
 ### Snap 
 ```
-soon
+lumerad tendermint unsafe-reset-all --home $HOME/.lumera
+curl -L http://37.120.189.81/lumera_testnet/lumera_snap.tar.lz4 | tar -I lz4 -xf - -C $HOME/.lumera
 ```
 ### 🚧Başlatalım
 ```
