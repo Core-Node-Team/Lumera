@@ -88,7 +88,7 @@ Restart=on-failure
 RestartSec=10
 LimitNOFILE=65535
 Environment="DAEMON_HOME=$HOME/.lumera"
-Environment="DAEMON_NAME=junctiond"
+Environment="DAEMON_NAME=lumerad"
 Environment="UNSAFE_SKIP_BACKUP=true"
 Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:$HOME/.lumera/cosmovisor/current/bin"
 Environment="LD_LIBRARY_PATH=$HOME/.lumera"
