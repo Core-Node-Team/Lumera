@@ -61,8 +61,8 @@ chmod +x lumerad
 mkdir -p $HOME/.lumera/cosmovisor/genesis/bin
 mv $HOME/lumerad $HOME/.lumera/cosmovisor/genesis/bin
 mv libwasmvm.x86_64.so $HOME/.lumera/
-mkdir -p $HOME/.lumera/cosmovisor/upgrades/v1.0.0/bin
-cp $HOME/.lumera/cosmovisor/genesis/bin/lumerad $HOME/.lumera/cosmovisor/upgrades/v1.0.0/bin/lumerad
+
+curl -L https://raw.githubusercontent.com/Core-Node-Team/Lumera/refs/heads/main/upgrade-info.json > $HOME/.lumera/cosmovisor/genesis/upgrade-info.json
 ```
 ```
 echo 'export LD_LIBRARY_PATH=$HOME/.lumera:$LD_LIBRARY_PATH' >> ~/.bashrc
