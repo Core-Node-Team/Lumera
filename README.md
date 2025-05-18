@@ -175,9 +175,10 @@ lumerad keys add cüzdan-adi-yaz
 lumerad keys add cüzdan-adi-yaz --recover
 ```
 ### Validator oluştur
-
+```
 cd $HOME
-# Create validator.json file
+```
+```
 echo "{\"pubkey\":{\"@type\":\"/cosmos.crypto.ed25519.PubKey\",\"key\":\"$(lumerad comet show-validator | grep -Po '\"key\":\s*\"\K[^"]*')\"},
     \"amount\": \"1000000ulume\",
     \"moniker\": \"test\",
@@ -190,16 +191,16 @@ echo "{\"pubkey\":{\"@type\":\"/cosmos.crypto.ed25519.PubKey\",\"key\":\"$(lumer
     \"commission-max-change-rate\": \"0.01\",
     \"min-self-delegation\": \"1\"
 }" > validatorlu.json
+```
 
-
-
+```
 lumerad tx staking create-validator $HOME/.lumera/validatorlu.json \
 --from wallet \
 --chain-id lumera-testnet-1 \
 --gas-prices=0.025ulume \
 --gas-adjustment=1.5 \
 --gas=auto 
-
+```
 
 ### unjail
 ```
